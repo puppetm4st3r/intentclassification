@@ -1,4 +1,4 @@
-# Efficient User Intent Classification with Machine Learning and Embeddings for Spanisg language
+# Efficient User Intent Classification with Machine Learning and Embeddings for Spanish language
 
 This repository contains the implementation of an efficient and fast user intent classification system using an ensemble of logistic regression, SVM, and k-NN classifiers. The model leverages text embeddings from the `jinaai/jina-embeddings-v2-base-es` to provide high accuracy while being resource-efficient compared to large language models (LLMs).
 
