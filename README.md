@@ -53,3 +53,5 @@ I invite you to clone the repository, test the model, and contribute to improvin
 
 ### Follow and Support
 If you found this project helpful, please give it a star and follow me for more insights on efficient machine learning techniques and natural language understanding innovations. Let's collaborate and push the boundaries of what's possible in user intent classification.
+
+From Latam with ❤️
