@@ -30,7 +30,7 @@ In this project, I address the challenge of user intent classification in conver
 - Affirmation
 - Casual Chat
 
-### Model results
+### Model Results
 
 | Intent        | Precision | Recall | F1-Score | Support |
 |---------------|-----------|--------|----------|---------|
