@@ -12,6 +12,8 @@ This model was train on spanish text corpus and only for text that represents qu
 ## Performance Note
 One of the key advantages of this model is that it does not require a GPU to run efficiently. The ensemble classifier, leveraging logistic regression, SVM, and k-NN, provides more than decent performance on a CPU. This makes it a viable and cost-effective alternative to running large language models or transformers in production, which typically require significant computational resources and higher costs. This approach ensures that the model is both accessible and practical for real-time applications without the need for specialized hardware.
 
+This approach is also useful and more practical than training a BERT or SBERT classifier, as the embeddings and this ensemble do not require significant computational power. By leveraging pre-trained embeddings and an efficient ensemble of traditional machine learning models, we achieve high accuracy without the need for extensive computational resources.
+
 ## Overview
 
 In this project, I address the challenge of user intent classification in conversational AI pipelines, particularly for *spanish* language retrieve-augmented generation (RAG) systems. By combining multiple machine learning algorithms and calibrating their probabilities, the ensemble model achieves remarkable performance. This approach is designed to be significantly faster and more cost-effective than LLMs, making it suitable for real-time applications.
