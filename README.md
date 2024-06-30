@@ -4,11 +4,6 @@ This repository contains the implementation of an efficient and fast user intent
 
 [Medium (free) story link (for more details)](https://medium.com/@prudant/d83ef2251f1f)
 
-## Limitations
-This model was train on spanish text corpus and only for text that represents question or requests, it wont perform well with multi turn chathistory or multiline long texts, it's recommended for 128< len token texts.
-
-`If you build a larger dataset with longer text secuences or multi turn conversations and train the model, it should be work pretty well, the Jina embedding model support up to 8k tokens =)`
-
 ## Performance Note
 One of the key advantages of this model is that it does not require a GPU to run efficiently. The ensemble classifier, leveraging logistic regression, SVM, and k-NN, provides more than decent performance on a CPU. This makes it a viable and cost-effective alternative to running large language models or transformers in production, which typically require significant computational resources and higher costs. This approach ensures that the model is both accessible and practical for real-time applications without the need for specialized hardware.
 
@@ -52,6 +47,11 @@ This project showcases a fast and efficient method for user intent classificatio
 
 ### Contributions
 I invite you to clone the repository, test the model, and contribute to improving the dataset and model performance. Your feedback and suggestions are highly appreciated.
+
+## Limitations
+This model was train on spanish text corpus and only for text that represents question or requests, it wont perform well with multi turn chathistory or multiline long texts, it's recommended for 128< len token texts.
+
+`If you build a larger dataset with longer text secuences or multi turn conversations and train the model, it should be work pretty well, the Jina embedding model support up to 8k tokens =)`
 
 ### Follow and Support
 If you found this project helpful, please give it a star and follow me for more insights on efficient machine learning techniques and natural language understanding innovations. Let's collaborate and push the boundaries of what's possible in user intent classification.
