@@ -53,7 +53,7 @@ This model was train on spanish text corpus and only for text that represents qu
 
 `If you build a larger dataset with longer text secuences or multi turn conversations and train the model, it should be work pretty well, the Jina embedding model support up to 8k tokens =)`
 
-### Follow and Support
+## Follow and Support
 If you found this project helpful, please give it a star and follow me for more insights on efficient machine learning techniques and natural language understanding innovations. Let's collaborate and push the boundaries of what's possible in user intent classification.
 
 From Latam with ❤️
