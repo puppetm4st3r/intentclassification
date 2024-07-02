@@ -48,8 +48,8 @@ This project showcases a fast and efficient method for user intent classificatio
 ### Contributions
 I invite you to clone the repository, test the model, and contribute to improving the dataset and model performance. Your feedback and suggestions are highly appreciated.
 
-## Limitations
-This model was train on spanish text corpus and only for text that represents question or requests, it wont perform well with multi turn chathistory or multiline long texts, it's recommended for 128< len token texts.
+## Limitations and intented uses
+This model was train on spanish text corpus and only for text that represents question or requests, it wont perform well with multi turn chathistory or multiline long texts, it's recommended for 128< len token texts. Also the dataset is not big enought to generalize well, but the intention of this repository is to lay the foundations for an assembly of models that, with a larger dataset, should generalize very well for a real use case. DO NOT USE ON PRODUCTIVE ENVIRONMENTS.
 
 `If you build a larger dataset with longer text secuences or multi turn conversations and train the model, it should be work pretty well, the Jina embedding model support up to 8k tokens =)`
 
